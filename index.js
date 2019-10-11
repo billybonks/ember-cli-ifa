@@ -77,6 +77,6 @@ module.exports = {
     }
 
     replacePlaceholder(path.join(build.directory, 'index.html'), assetMap);
-    replacePlaceholder(path.join(build.directory, 'tests/index.html'), assetMap);
+    //replacePlaceholder(path.join(build.directory, 'tests/index.html'), assetMap);
   }
 };
